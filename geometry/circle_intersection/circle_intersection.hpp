@@ -2,7 +2,7 @@
 //
 //  file name:
 //
-//    circle_intersection.h
+//    circle_intersection.hpp
 //
 //  licensing:
 //

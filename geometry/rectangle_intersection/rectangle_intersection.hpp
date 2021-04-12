@@ -2,7 +2,7 @@
 //
 //  file name:
 //
-//    rectangle_intersection.h
+//    rectangle_intersection.hpp
 //
 //  licensing:
 //
