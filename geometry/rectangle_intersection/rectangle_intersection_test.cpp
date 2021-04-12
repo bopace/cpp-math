@@ -36,7 +36,7 @@ int main()
 {
     cout << "rectangle intersection test cases\n"
          << "  this code determines whether or not two rectangles touch or\n"
-         << "  intersect. rectangless are defined by their upper left corner,\n"
+         << "  intersect. rectangless are defined by their lower left corner,\n"
          << "  designated by cartesian coordinates. rectangles are also given\n"
          << "  dimensional sizes, width and height.\n";
     
@@ -69,7 +69,7 @@ void rectangles_touch_test()
     double sizes1[2]{ 4, 4 };
 
     cout << "    rectangle a:\n"
-         << "        upper left corner: (" << p1[0] << ", " << p1[1] << ")\n"
+         << "        lower left corner: (" << p1[0] << ", " << p1[1] << ")\n"
          << "        width: " << sizes1[0] << "\n"
          << "        height: " << sizes1[1] <<"\n\n";
 
@@ -77,7 +77,7 @@ void rectangles_touch_test()
     double sizes2[2]{ 4, 4 };
 
     cout << "    rectangle b:\n"
-         << "        upper left corner: (" << p2[0] << ", " << p2[1] << ")\n"
+         << "        lower left corner: (" << p2[0] << ", " << p2[1] << ")\n"
          << "        width: " << sizes2[0] << "\n"
          << "        height: " << sizes2[1] <<"\n\n";
 
@@ -108,7 +108,7 @@ void rectangles_intersect_test()
     double sizes1[2]{ 4, 4 };
 
     cout << "    rectangle a:\n"
-         << "        upper left corner: (" << p1[0] << ", " << p1[1] << ")\n"
+         << "        lower left corner: (" << p1[0] << ", " << p1[1] << ")\n"
          << "        width: " << sizes1[0] << "\n"
          << "        height: " << sizes1[1] <<"\n\n";
 
@@ -116,7 +116,7 @@ void rectangles_intersect_test()
     double sizes2[2]{ 4, 4 };
 
     cout << "    rectangle b:\n"
-         << "        upper left corner: (" << p2[0] << ", " << p2[1] << ")\n"
+         << "        lower left corner: (" << p2[0] << ", " << p2[1] << ")\n"
          << "        width: " << sizes2[0] << "\n"
          << "        height: " << sizes2[1] <<"\n\n";
 
@@ -147,7 +147,7 @@ void rectangles_do_not_touch_test()
     double sizes1[2]{ 4, 4 };
 
     cout << "    rectangle a:\n"
-         << "        upper left corner: (" << p1[0] << ", " << p1[1] << ")\n"
+         << "        lower left corner: (" << p1[0] << ", " << p1[1] << ")\n"
          << "        width: " << sizes1[0] << "\n"
          << "        height: " << sizes1[1] <<"\n\n";
 
@@ -155,7 +155,7 @@ void rectangles_do_not_touch_test()
     double sizes2[2]{ 4, 4 };
 
     cout << "    rectangle b:\n"
-         << "        upper left corner: (" << p2[0] << ", " << p2[1] << ")\n"
+         << "        lower left corner: (" << p2[0] << ", " << p2[1] << ")\n"
          << "        width: " << sizes2[0] << "\n"
          << "        height: " << sizes2[1] <<"\n\n";
 

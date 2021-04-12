@@ -37,10 +37,10 @@ using namespace std;
 //
 //  input:
 //
-//    double p1[2] - the cartesian coordinates of the upper left hand corner of
+//    double p1[2] - the cartesian coordinates of the lower left hand corner of
 //      rectangle a
 //    double sizes1[2] - the dimensional sizes (width and height) of rectangle a
-//    double p2[2] - the cartesian coordinates of the upper left hand corner of
+//    double p2[2] - the cartesian coordinates of the lower left hand corner of
 //      rectangle b
 //    double sizes2[2] - the dimensional sizes (width and height) of rectangle b
 //
