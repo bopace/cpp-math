@@ -13,7 +13,7 @@
 
 using namespace std;
 
-#include "rectangle_intersection.h"
+#include "rectangle_intersection.hpp"
 
 //****************************************************************************80
 //

@@ -15,7 +15,7 @@
 
 using namespace std;
 
-#include "circle_intersection.h"
+#include "circle_intersection.hpp"
 
 //****************************************************************************80
 //

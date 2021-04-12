@@ -15,7 +15,7 @@
 
 using namespace std;
 
-#include "rectangle_intersection.h"
+#include "rectangle_intersection.hpp"
 
 int main();
 void rectangles_touch_test();
